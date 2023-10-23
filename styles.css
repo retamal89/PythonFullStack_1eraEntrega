@@ -56,3 +56,47 @@ body.empresa {
 body.servicios {
     background-color: #ffffff;
 }
+
+/* Formulario de contacto */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.form-container form {
+    background-color: #YourColorHere; /* Reemplaza "YourColorHere" por el color deseado */
+    padding: 20px;
+    border: 2px solid #YourColorHere; /* Reemplaza "YourColorHere" por el mismo color anterior */
+    border-radius: 10px;
+    max-width: 400px; /* Cambia el ancho máximo según tus preferencias */
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input[type="submit"] {
+    background-color: #YourButtonColor; /* Reemplaza "YourButtonColor" por el color deseado */
+    color: #ffffff;
+    cursor: pointer;
+}
